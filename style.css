@@ -1,0 +1,486 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;800;900&family=Roboto&display=swap');
+@import url('https://fonts.cdnfonts.com/css/myriad-pro');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ==== DOBRA 1 ====*/
+
+header {
+    height: 909px;
+    width: 2560px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/background/BG-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+header .container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.titulo h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: #00a1e6;
+    font-size: 4.2059rem;
+
+}
+
+.titulo h2 {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 3.9911rem;
+    color: #1f1f1f;
+
+}
+
+
+.subtitulo p {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 2.6953rem;
+}
+
+.lista {
+
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 1.9780rem;
+}
+
+.lista ul li {
+    list-style: none;
+}
+
+.lista ul li:before {
+
+    content: '\2022';
+    margin: 0 9px;
+    color: #000;
+}
+
+.btn button {
+    height: 70px;
+    width: 780px;
+    background: rgb(81, 188, 206);
+    box-shadow: -1.873px 4.636px 0.9px 0.1px rgba(0, 0, 0, 0.22);
+    color: #fff;
+    border: 10px solid transparent;
+    border-radius: 25px;
+    margin: 10px;
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 1.6118rem;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
+/* ==== DOBRA 2 ====*/
+
+main {
+    height: 1018px;
+    width: 2560px;
+}
+
+
+.quem-somos {
+    height: 552px;
+    width: 2560px;
+    background-color: #fff;
+}
+
+.quem-somos .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2rem;
+    gap: 10px;
+}
+
+.quem-somos .container .titulo {
+
+    font-family: 'Montserrat';
+    font-size: 3.3532rem;
+    font-weight: bold;
+    color: #00a1e7;
+}
+
+.quem-somos .container .texto {
+
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 2.4244rem;
+    color: #1b1b1b;
+    text-align: left;
+}
+
+.quem-somos .container #ultimo-p {
+    text-align: center;
+}
+
+.quem-somos .container .btn button {
+
+    height: 70px;
+    width: 780px;
+    background: rgb(81, 188, 206);
+    color: #fff;
+    border: 10px solid transparent;
+    border-radius: 25px;
+    margin: 10px;
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 1.6202rem;
+
+}
+
+
+/* ==== DOBRA 3 ==== */
+
+.dobra3 {
+
+    height: 502px;
+    width: 2560px;
+    background-image: url(images/background/BG-2.jpg);
+    background-size: cover;
+    background-position: left -120px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+
+.dobra3 .titulo {
+    text-align: center;
+    padding: 3rem;
+}
+
+
+.dobra3 .titulo h1 {
+
+    font-family: 'Montserrat';
+    font-size: 3.1768rem;
+    font-weight: 500;
+    color: #333333;
+
+}
+
+.dobra3 .titulo h2 {
+
+    font-family: 'Montserrat';
+    font-size: 3.8456rem;
+    font-weight: bold;
+    color: #00a1e7;
+
+}
+
+
+.dobra3 .logos ul {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+
+.dobra3 .logos ul li {
+
+    list-style: none;
+}
+
+.dobra3 .btn button {
+
+    height: 70px;
+    width: 780px;
+    background: rgb(81, 188, 206);
+    color: #fff;
+    border: 10px solid transparent;
+    border-radius: 25px;
+    margin: 10px;
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 1.6202rem;
+
+}
+
+/* ==== DOBRA 4 ==== */
+
+.dobra4 {
+
+    height: 717px;
+    width: 2560px;
+    background-color: #fff;
+    display: flex;
+
+}
+
+.dobra4 .container-1 {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.dobra4 .titulos {
+
+    margin: 1.5rem;
+    margin-left: 20rem;
+
+}
+
+.dobra4 .titulos h1 {
+
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 3.6784rem;
+
+}
+
+.dobra4 .titulos h2 {
+
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 3.9292rem;
+    color: #1aaade;
+}
+
+
+.dobra4 .lista-dobra4 {
+    margin: 1.5rem;
+    margin-left: 22rem;
+
+}
+
+.dobra4 .lista-dobra4 ul li {
+    list-style-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 10 10"><circle fill="black" cx="7" cy="7" r="2"/></svg>');
+}
+
+
+.dobra4 .lista-dobra4 #frase1 {
+
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 2.9795rem;
+    color: #1aaade;
+
+}
+
+.dobra4 .lista-dobra4 #frase2 {
+
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 2.9486rem;
+    color: #1aaade;
+
+}
+
+.dobra4 .lista-dobra4 #frase3 {
+
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 2.5916rem;
+    color: #1aaade;
+
+}
+
+.dobra4 .lista-dobra4 p {
+
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 1.7556rem;
+
+}
+
+.dobra4 .pontilhados {
+
+    height: 255px;
+    width: 10px;
+    background-color: transparent;
+    position: absolute;
+    left: 325px;
+    border: #000 5px;
+    border-left-style: dotted;
+    margin-top: 25px;
+    margin-left: 4px;
+
+}
+
+.dobra4 .btn button {
+
+    height: 70px;
+    width: 800px;
+    background: rgb(81, 188, 206);
+    color: #fff;
+    border: 10px solid transparent;
+    border-radius: 25px;
+    margin: 10px;
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 1.6118rem;
+    margin-left: 20rem;
+    display: inline-block;
+
+}
+
+
+.dobra4 .btn img {
+
+    height: 80px;
+    width: 80px;
+
+}
+
+.dobra4 .container-2 {
+    padding: 20px;
+}
+
+/* ===== DOBRA 5 =====  */
+
+footer {
+
+    height: 1176px;
+    width: 2560px;
+    background-color: #00a0e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+
+.container-dobra5 {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+
+}
+
+.container-dobra5 .titulos {
+
+    text-align: center;
+}
+
+
+.container-dobra5 .titulos h1 {
+
+    font-family: 'Montserrat';
+    font-weight: 400;
+    color: #fff;
+    font-size: 2.4888rem;
+}
+
+.container-dobra5 .titulos h2 {
+
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: #fff;
+    font-size: 3.6199rem;
+
+}
+
+.container-dobra5 .formulario {
+
+    height: 550px;
+    width: 700px;
+    background-color: #fff;
+    border: 10px solid transparent;
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+
+
+.container-dobra5 .formulario h1 {
+
+    font-family: 'Montserrat';
+    font-weight: 900;
+    color: #4a4a4a;
+    font-size: 3.3440rem;
+
+}
+
+
+
+.container-dobra5 .formulario label {
+
+    align-self: flex-start;
+    margin-left: 100px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 1.3409rem;
+}
+
+.container-dobra5 .formulario input {
+
+    height: 48px;
+    width: 480px;
+    border: 2px solid #dbdbdb;
+    border-radius: 10px;
+    font-size: 32px;
+    padding: 10px;
+
+}
+
+
+.container-dobra5 .formulario button {
+
+    height: 55px;
+    width: 400px;
+    color: #fff;
+    background-color: #4a4a4a;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 1.6260rem;
+    border: 15px solid transparent;
+    border-radius: 30px;
+    text-align: center;
+}
+
+
+footer .texto {
+
+    font-family: 'Montserrat';
+    font-size: 2.0572rem;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+}
+
+footer .texto p {
+    text-align: left;
+}
+
+footer .direitos-reservados {
+
+    font-family: 'Myriad Pro';
+    color: #fff;
+    font-size: 1.7288rem;
+
+}
